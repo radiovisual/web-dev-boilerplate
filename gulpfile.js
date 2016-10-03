@@ -1,6 +1,8 @@
 'use strict';
 require('dotenv').config();
 
+var ftp = require('vinyl-ftp');
+var gutil = require('gulp-util');
 var browserSync = require('browser-sync').create();
 var gulp = require('gulp');
 var uglifycss = require('gulp-uglifycss');
@@ -70,7 +72,7 @@ gulp.task('ftp', function () {
 	];
 	// using base = '.' will transfer everything to /public_html correctly
 	// turn off buffering in gulp.src for best performance
-	return gulp.src(globs, {base: '.', buffer: false})
+	return gulp.src(globs, {base: 'dist', buffer: false})
 		.pipe(conn.newer('/')) // only upload newer files
 		.pipe(conn.dest('/'));
 });
