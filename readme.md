@@ -1,5 +1,19 @@
 # web-dev-boilerplate
 
+> A basic web development boilerplate.
+
+Features:
+
+- [x] HTML5 Boilerplate
+- [x] Gulp
+- [x] Auto FTP deployment
+- [x] Auto-reloading via BrowserSync
+- [x] SASS
+- [x] Auto JS dependency file minimization + concatenation
+- [ ] React Starter
+- [ ] Sourcemaps
+- [ ] Browserify
+
 ## Install
 
 Clone this boilerplate repo, then install the dependencies
