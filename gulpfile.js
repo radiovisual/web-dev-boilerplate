@@ -46,7 +46,7 @@ gulp.task('browser-sync', function () {
 			baseDir: './dist'
 		}
 	});
-	gulp.watch(['./dist/*.html'], ['reload']);
+	gulp.watch(['./dist/*/*.html'], ['reload']);
 	gulp.watch(['./dist/css/*.css'], ['reload']);
 	gulp.watch(['./dist/sass/*.scss'], ['reloadsass']);
 	gulp.watch(['./dist/js/*.js'], ['reload']);
