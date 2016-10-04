@@ -11,6 +11,7 @@ var sass = require('gulp-sass');
 
 /**
  * Concat/minify all SASS files into a single css file.
+ *
  */
 gulp.task('sass', function () {
 	return gulp.src(['./dist/sass/*.scss', '!./dist/sass/mixins.scss'])
@@ -25,6 +26,7 @@ gulp.task('sass', function () {
 
 /**
  * Concat/minify all JS dependencies into a single file.
+ *
  */
 gulp.task('build-deps', function() {
 	console.log('building dependencies to file: ./src/js/vendor/build/dependencies.min.js');
@@ -58,6 +60,7 @@ gulp.task('reload', function () {
 
 /**
  * Send your website files to the server via FTP
+ * 
  */
 gulp.task('ftp', function () {
 	var conn = ftp.create({

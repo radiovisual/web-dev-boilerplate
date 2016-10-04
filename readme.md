@@ -10,15 +10,18 @@ Features:
 - [x] Auto-reloading via BrowserSync
 - [x] SASS
 - [x] Auto JS dependency file minimization + concatenation
+- [x] Quick git init
 - [ ] React Starter
 - [ ] Sourcemaps
 - [ ] Browserify
 
 ## Install
 
-Clone this boilerplate repo, then install the dependencies
+Clone this boilerplate repo, install the dependencies, then start your own git repo
 ```
+$ git clone --depth=1 https://github.com/radiovisual/web-dev-boilerplate.git
 $ npm install
+$ npm run setup
 ```
 
 ## Commands
@@ -31,3 +34,13 @@ This boilerplate comes with the following gulp commands:
 - `gulp browser-sync`: Watches/reloads browser when the following files have been changed: `html`, `js`, `css` and `scss`
 - `gulp ftp`: Syncs your entire `dist` directory to your FTP server. Requires that you have a `.env` file or the following
  values available to your environment: `FTP_HOST`, `FTP_USER`, and `FTP_PASS`
+
+## License
+
+
+Portions of this boilerplate include Boilerplate Source from other Boilerplate Projects:
+
+| Project | License |
+| ------  | ------- |
+| [React Boilerplate](https://github.com/mxstbr/react-boilerplate) | [MIT License](https://github.com/mxstbr/react-boilerplate/blob/master/LICENSE.md) |
+| Web Dev Boilerplate | NO LICENSE |
