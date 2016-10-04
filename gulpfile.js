@@ -79,3 +79,9 @@ gulp.task('ftp', function () {
 		.pipe(conn.newer('/')) // only upload newer files
 		.pipe(conn.dest('/'));
 });
+
+/**
+ * The default task (called when you run `gulp` from cli)
+ *
+ */
+gulp.task('default', ['sass', 'browser-sync']);
