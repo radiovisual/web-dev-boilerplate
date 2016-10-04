@@ -1,5 +1,5 @@
 'use strict';
-require('dotenv').config();
+require('dotenv').config({silent:true});
 
 var ftp = require('vinyl-ftp');
 var gutil = require('gulp-util');
