@@ -50,11 +50,11 @@ gulp.task('browser-sync', function () {
 	});
 	gulp.watch(['./dist/**/*.html'], ['reload']);
 	gulp.watch(['./dist/css/*.css'], ['reload']);
-	gulp.watch(['./dist/sass/*.scss'], ['reloadsass']);
+	gulp.watch(['./dist/sass/*.scss'], ['reload']);
 	gulp.watch(['./dist/js/*.js'], ['reload']);
 });
 
-gulp.task('reload', function () {
+gulp.task('reload', ['sass'], function () {
 	browserSync.reload();
 });
 
