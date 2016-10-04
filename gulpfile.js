@@ -60,7 +60,7 @@ gulp.task('reload', function () {
 
 /**
  * Send your website files to the server via FTP
- * 
+ *
  */
 gulp.task('ftp', function () {
 	var conn = ftp.create({

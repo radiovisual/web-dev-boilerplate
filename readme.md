@@ -38,9 +38,9 @@ This boilerplate comes with the following gulp commands:
 ## License
 
 
-Portions of this boilerplate include Boilerplate Source from other Boilerplate Projects:
+This Boilerplate is free to the public domain, however, portions of this boilerplate include Boilerplate Source from other Boilerplate Projects:
 
 | Project | License |
 | ------  | ------- |
+| [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) | [MIT License](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt) |
 | [React Boilerplate](https://github.com/mxstbr/react-boilerplate) | [MIT License](https://github.com/mxstbr/react-boilerplate/blob/master/LICENSE.md) |
-| Web Dev Boilerplate | NO LICENSE |
