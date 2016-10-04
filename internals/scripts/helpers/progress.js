@@ -1,4 +1,3 @@
-// https://github.com/mxstbr/react-boilerplate/blob/master/internals/scripts/helpers/progress.js
 var readline = require('readline');
 
 /**

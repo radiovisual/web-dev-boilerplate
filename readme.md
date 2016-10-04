@@ -38,7 +38,9 @@ This boilerplate comes with the following gulp commands:
 ## License
 
 
-This Boilerplate is free to the public domain, however, portions of this boilerplate include Boilerplate Source from other Boilerplate Projects:
+MIT @ [Michael Wuergler](http://numetriclabs.com).
+
+Portions of this boilerplate include Boilerplate Source from other Boilerplate Projects:
 
 | Project | License |
 | ------  | ------- |
