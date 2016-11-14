@@ -11,6 +11,7 @@ Features:
 - [x] SASS
 - [x] Auto JS dependency file minimization + concatenation
 - [x] Quick git init
+- [x] Lodash
 - [ ] React Starter
 - [ ] Sourcemaps
 - [ ] Browserify
@@ -18,6 +19,7 @@ Features:
 ## Install
 
 Clone this boilerplate repo, install the dependencies, then start your own git repo
+
 ```
 $ git clone --depth=1 https://github.com/radiovisual/web-dev-boilerplate.git
 $ npm install
@@ -44,5 +46,6 @@ Portions of this boilerplate include Boilerplate Source from other Boilerplate P
 
 | Project | License |
 | ------  | ------- |
-| [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) | [MIT License](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt) |
-| [React Boilerplate](https://github.com/mxstbr/react-boilerplate) | [MIT License](https://github.com/mxstbr/react-boilerplate/blob/master/LICENSE.md) |
+| [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) | [MIT License](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt) |
+| [mxstbr/react-boilerplate](https://github.com/mxstbr/react-boilerplate) | [MIT License](https://github.com/mxstbr/react-boilerplate/blob/master/LICENSE.md) |
+| [christianalfoni/react-app-boilerplate](https://github.com/christianalfoni/react-app-boilerplate) | No License |

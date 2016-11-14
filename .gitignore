@@ -3,3 +3,6 @@ node_modules
 # Don't track environment variables
 .env
 
+# Don't track the build files
+build
+

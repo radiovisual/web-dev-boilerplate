@@ -26,9 +26,14 @@
     "url": "https://github.com/radiovisual/web-dev-boilerplate/issues"
   },
   "homepage": "https://github.com/radiovisual/web-dev-boilerplate#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2"
+  },
   "devDependencies": {
     "browser-sync": "^2.16.1",
+    "browserify": "^13.1.0",
     "chalk": "^1.1.3",
     "dotenv": "^2.0.0",
     "gulp": "^3.9.1",
@@ -37,8 +42,11 @@
     "gulp-uglify": "^2.0.0",
     "gulp-uglifycss": "^1.0.6",
     "gulp-util": "^3.0.7",
+    "reactify": "^1.1.1",
     "readline": "^1.3.0",
     "shelljs": "^0.7.4",
-    "vinyl-ftp": "^0.5.0"
+    "vinyl-ftp": "^0.5.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
