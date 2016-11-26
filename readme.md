@@ -18,6 +18,8 @@ Features:
 
 ## Install
 
+First, make sure you have [Node + npm](https://nodejs.org) installed.
+
 Clone this boilerplate repo, install the dependencies, then start your own git repo
 
 ```
