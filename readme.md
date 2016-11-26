@@ -23,7 +23,8 @@ First, make sure you have [Node + npm](https://nodejs.org) installed.
 Clone this boilerplate repo, install the dependencies, then start your own git repo
 
 ```
-$ git clone --depth=1 https://github.com/radiovisual/web-dev-boilerplate.git
+$ git clone --depth=1 https://github.com/radiovisual/web-dev-boilerplate.git my-project-name
+$ cd my-project-name
 $ npm install
 $ npm run setup
 ```
